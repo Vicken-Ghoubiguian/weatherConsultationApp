@@ -20,10 +20,12 @@ class MainActivity : AppCompatActivity() {
         validationWeatherButton.setOnClickListener {
 
             // Extraction of wished localisation value (a city, an island, an atoll or others)...
-            val localisationName: String = (findViewById(R.id.localisationName) as TextView).text.toString()
+            val localisationNameSTextView: TextView = findViewById(R.id.localisationName)
+            val localisationName: String = localisationNameSTextView.text.toString()
 
             // Extraction of informed openWeather API Key value...
-            val openWeatherAPIKey: String = (findViewById(R.id.openWeatherAPIKey) as TextView).text.toString()
+            val openWeatherAPIKeySTextView: TextView = findViewById(R.id.openWeatherAPIKey)
+            val openWeatherAPIKey: String = openWeatherAPIKeySTextView.text.toString()
         }
     }
 }
