@@ -14,6 +14,9 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        // Extraction of wished localisation value (a city, an island, an atoll or others)...
+        val localisationName: String = (findViewById(R.id.localisationName) as TextView).text.toString()
+
         // Extraction of informed openWeather API Key value...
         val openWeatherAPIKey: String = (findViewById(R.id.openWeatherAPIKey) as TextView).text.toString()
     }
