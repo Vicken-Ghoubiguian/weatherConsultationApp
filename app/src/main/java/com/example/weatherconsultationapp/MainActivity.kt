@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        //
+        // Extraction of the validation weather's button and its click listener...
         val validationWeatherButton: Button = findViewById(R.id.validationWeatherButton)
         validationWeatherButton.setOnClickListener {
 
