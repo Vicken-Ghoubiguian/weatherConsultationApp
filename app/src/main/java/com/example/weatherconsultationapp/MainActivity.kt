@@ -17,12 +17,13 @@ class MainActivity : AppCompatActivity() {
 
         //
         val validationWeatherButton: Button = findViewById(R.id.validationWeatherButton)
+        validationWeatherButton.setOnClickListener {
 
+            // Extraction of wished localisation value (a city, an island, an atoll or others)...
+            val localisationName: String = (findViewById(R.id.localisationName) as TextView).text.toString()
 
-        // Extraction of wished localisation value (a city, an island, an atoll or others)...
-        val localisationName: String = (findViewById(R.id.localisationName) as TextView).text.toString()
-
-        // Extraction of informed openWeather API Key value...
-        val openWeatherAPIKey: String = (findViewById(R.id.openWeatherAPIKey) as TextView).text.toString()
+            // Extraction of informed openWeather API Key value...
+            val openWeatherAPIKey: String = (findViewById(R.id.openWeatherAPIKey) as TextView).text.toString()
+        }
     }
 }
