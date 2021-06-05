@@ -26,6 +26,8 @@ class MainActivity : AppCompatActivity() {
             // Extraction of openWeather API Key's TextView and its value...
             val openWeatherAPIKeySTextView: TextView = findViewById(R.id.openWeatherAPIKey)
             val openWeatherAPIKey: String = openWeatherAPIKeySTextView.text.toString()
+
+            //
         }
     }
 }
