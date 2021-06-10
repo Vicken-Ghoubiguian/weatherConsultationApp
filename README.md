@@ -6,5 +6,7 @@ This project consists of developing a mobile application for Android consisting 
 
 1. [Introduction](),
 2. [Presentation](),
-4. [Useful links](),
-5. [Conclusion](),
+3. [Installation](),
+4. [Exemple](),
+5. [Useful links](),
+6. [Conclusion](),
