@@ -26,11 +26,11 @@ class MainActivity : AppCompatActivity() {
 
             // Extraction of localisation's TextView and its value (a city, an island, an atoll or others)...
             this.localisationNameSTextView = findViewById(R.id.localisationName)
-            //val localisationName: String = localisationNameSTextView!!.text.toString()
+            val localisationName: String = localisationNameSTextView!!.text.toString()
 
             // Extraction of openWeather API Key's TextView and its value...
             this.openWeatherAPIKeySTextView = findViewById(R.id.openWeatherAPIKey)
-            //val openWeatherAPIKey: String = openWeatherAPIKeySTextView!!.text.toString()
+            val openWeatherAPIKey: String = openWeatherAPIKeySTextView!!.text.toString()
 
             //
 
