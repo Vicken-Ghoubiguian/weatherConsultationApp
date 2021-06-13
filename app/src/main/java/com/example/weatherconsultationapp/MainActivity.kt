@@ -8,7 +8,7 @@ import android.widget.TextView
 // Definition of the 'MainActivity' class which define the main activity controller...
 class MainActivity : AppCompatActivity() {
 
-    //
+    // Declaration of all elements for this little Android app...
     private var validationWeatherButton: Button? = null
     private var localisationNameSTextView: TextView? = null
     private var openWeatherAPIKeySTextView: TextView? = null
