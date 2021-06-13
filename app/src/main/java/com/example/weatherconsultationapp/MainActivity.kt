@@ -21,16 +21,16 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         // Extraction of the validation weather's button and its click listener...
-        val validationWeatherButton: Button = findViewById(R.id.validationWeatherButton)
-        validationWeatherButton.setOnClickListener {
+        this.validationWeatherButton = findViewById(R.id.validationWeatherButton)
+        validationWeatherButton!!.setOnClickListener {
 
             // Extraction of localisation's TextView and its value (a city, an island, an atoll or others)...
-            val localisationNameSTextView: TextView = findViewById(R.id.localisationName)
-            val localisationName: String = localisationNameSTextView.text.toString()
+            this.localisationNameSTextView = findViewById(R.id.localisationName)
+            //val localisationName: String = localisationNameSTextView!!.text.toString()
 
             // Extraction of openWeather API Key's TextView and its value...
-            val openWeatherAPIKeySTextView: TextView = findViewById(R.id.openWeatherAPIKey)
-            val openWeatherAPIKey: String = openWeatherAPIKeySTextView.text.toString()
+            this.openWeatherAPIKeySTextView = findViewById(R.id.openWeatherAPIKey)
+            //val openWeatherAPIKey: String = openWeatherAPIKeySTextView!!.text.toString()
 
             //
 
