@@ -4,9 +4,27 @@ This project consists of developing a mobile application for Android consisting 
 
 ## Contents
 
-1. [Introduction](),
-2. [Presentation](),
-3. [Installation](),
-4. [Exemple](),
-5. [Useful links](),
-6. [Conclusion](),
+1. [Introduction](#introduction),
+2. [Presentation](#presentation),
+3. [Installation](#installation),
+4. [Example](#example),
+5. [Useful links](#useful_links),
+6. [Conclusion](#conclusion),
+
+<a name="introduction"></a>
+## Introduction
+
+<a name="presentation"></a>
+## Presentation
+
+<a name="installation"></a>
+## Installation
+
+<a name="example"></a>
+## Example
+
+<a name="useful_links"></a>
+## Useful links
+
+<a name="conclusion"></a>
+## Conclusion
