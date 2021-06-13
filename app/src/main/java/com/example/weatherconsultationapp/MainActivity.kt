@@ -8,6 +8,11 @@ import android.widget.TextView
 // Definition of the 'MainActivity' class which define the main activity controller...
 class MainActivity : AppCompatActivity() {
 
+    //
+    private var validationWeatherButton: Button? = null
+    private var localisationNameSTextView: TextView? = null
+    private var openWeatherAPIKeySTextView: TextView? = null
+
     // Overriden function to create the main activity...
     override fun onCreate(savedInstanceState: Bundle?) {
 
@@ -28,6 +33,7 @@ class MainActivity : AppCompatActivity() {
             val openWeatherAPIKey: String = openWeatherAPIKeySTextView.text.toString()
 
             //
+
         }
     }
 }
