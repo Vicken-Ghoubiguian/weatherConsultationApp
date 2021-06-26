@@ -38,7 +38,9 @@ class MainActivity : AppCompatActivity() {
             this.openWeatherAPIKeySTextView = findViewById(R.id.openWeatherAPIKey)
             val openWeatherAPIKey: String = openWeatherAPIKeySTextView!!.text.toString()
 
-            //
+            // Extraction of country code Spinner...
+            this.countryCodesSpinner = findViewById(R.id.countryCodesSpinner)
+
 
         }
     }
