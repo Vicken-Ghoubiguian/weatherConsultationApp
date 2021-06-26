@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
     private var secondPartOfOpenWeatherHTTPSRequest = "&appid=";
 
     // Declaration of the ArrayList which will contain all countryCodes to use in UI spinner...
-    private var countryCodeArrayList: ArrayList<String>? = null
+    private var countryCodeArrayList = ArrayList<String>()
 
     // Overriden function to create the main activity...
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -28,6 +28,19 @@ class MainActivity : AppCompatActivity() {
         // Definition of the main activity...
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        // Adding all of the country codes in the specified ArrayList<String>...
+        this.countryCodeArrayList.add("AL")
+        this.countryCodeArrayList.add("AF")
+        this.countryCodeArrayList.add("DZ")
+        this.countryCodeArrayList.add("AS")
+        this.countryCodeArrayList.add("AD")
+
+        this.countryCodeArrayList.add("EH")
+        this.countryCodeArrayList.add("YE")
+        this.countryCodeArrayList.add("ZM")
+        this.countryCodeArrayList.add("ZW")
+        this.countryCodeArrayList.add("AX")
 
         // Extraction of the validation weather's button and its click listener...
         this.validationWeatherButton = findViewById(R.id.validationWeatherButton)
