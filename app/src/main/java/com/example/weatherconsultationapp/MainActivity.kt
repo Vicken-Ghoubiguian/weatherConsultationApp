@@ -36,6 +36,11 @@ class MainActivity : AppCompatActivity() {
         this.countryCodeArrayList.add("AS")
         this.countryCodeArrayList.add("AD")
 
+        this.countryCodeArrayList.add("FR")
+
+        this.countryCodeArrayList.add("KP")
+        this.countryCodeArrayList.add("KR")
+
         this.countryCodeArrayList.add("EH")
         this.countryCodeArrayList.add("YE")
         this.countryCodeArrayList.add("ZM")
@@ -44,7 +49,7 @@ class MainActivity : AppCompatActivity() {
 
         // Extraction of country code Spinner...
         this.countryCodesSpinner = findViewById(R.id.countryCodesSpinner)
-        
+        //this.countryCodesSpinner!!.se
 
         // Extraction of the validation weather's button and its click listener...
         this.validationWeatherButton = findViewById(R.id.validationWeatherButton)
