@@ -19,6 +19,9 @@ class MainActivity : AppCompatActivity() {
     private var firstPartOfOpenWeatherHTTPSRequest = "https://api.openweathermap.org/data/2.5/weather?q=";
     private var secondPartOfOpenWeatherHTTPSRequest = "&appid=";
 
+    // Declaration of the ArrayList which will contain all countryCodes to use in UI spinner...
+    private var countryCodeArrayList: ArrayList<String>? = null
+
     // Overriden function to create the main activity...
     override fun onCreate(savedInstanceState: Bundle?) {
 
