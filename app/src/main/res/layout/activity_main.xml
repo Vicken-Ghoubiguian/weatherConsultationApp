@@ -55,7 +55,7 @@
         tools:src="@drawable/logo" />
 
     <Spinner
-        android:id="@+id/spinner"
+        android:id="@+id/countryCodesSpinner"
         android:layout_width="223dp"
         android:layout_height="37dp"
         app:layout_constraintBottom_toTopOf="@+id/openWeatherAPIKey"
