@@ -36,11 +36,22 @@ class MainActivity : AppCompatActivity() {
         this.countryCodeArrayList.add("AS")
         this.countryCodeArrayList.add("AD")
 
+        this.countryCodeArrayList.add("FI")
         this.countryCodeArrayList.add("FR")
 
         this.countryCodeArrayList.add("KP")
         this.countryCodeArrayList.add("KR")
-
+        this.countryCodeArrayList.add("KW")
+        this.countryCodeArrayList.add("KG")
+        this.countryCodeArrayList.add("LA")
+        this.countryCodeArrayList.add("LV")
+        this.countryCodeArrayList.add("LB")
+        this.countryCodeArrayList.add("LS")
+        this.countryCodeArrayList.add("LR")
+        this.countryCodeArrayList.add("LY")
+        this.countryCodeArrayList.add("LI")
+        this.countryCodeArrayList.add("LT")
+        this.countryCodeArrayList.add("LU")
         this.countryCodeArrayList.add("MO")
         this.countryCodeArrayList.add("MG")
         this.countryCodeArrayList.add("MW")
