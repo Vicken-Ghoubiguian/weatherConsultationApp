@@ -14,8 +14,8 @@ class MainActivity : AppCompatActivity() {
     private var openWeatherAPIKeySTextView: TextView? = null
 
     // Declaration of all elements to configure the OpenWeather HTTPS Request URL...
-    private var firstPartOfOpenWeatherHTTPSRequest = "";
-    private var secondPartOfOpenWeatherHTTPSRequest = "";
+    private var firstPartOfOpenWeatherHTTPSRequest = "https://api.openweathermap.org/data/2.5/weather?q=";
+    private var secondPartOfOpenWeatherHTTPSRequest = "&appid=";
 
     // Overriden function to create the main activity...
     override fun onCreate(savedInstanceState: Bundle?) {
