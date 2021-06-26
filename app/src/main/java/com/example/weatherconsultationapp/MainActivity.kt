@@ -3,6 +3,7 @@ package com.example.weatherconsultationapp
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import android.widget.Spinner
 import android.widget.TextView
 
 // Definition of the 'MainActivity' class which define the main activity controller...
@@ -12,6 +13,7 @@ class MainActivity : AppCompatActivity() {
     private var validationWeatherButton: Button? = null
     private var localisationNameSTextView: TextView? = null
     private var openWeatherAPIKeySTextView: TextView? = null
+    private var countryCodesSpinner: Spinner? = null
 
     // Declaration of all elements to configure the OpenWeather HTTPS Request URL...
     private var firstPartOfOpenWeatherHTTPSRequest = "https://api.openweathermap.org/data/2.5/weather?q=";
