@@ -42,6 +42,10 @@ class MainActivity : AppCompatActivity() {
         this.countryCodeArrayList.add("ZW")
         this.countryCodeArrayList.add("AX")
 
+        // Extraction of country code Spinner...
+        this.countryCodesSpinner = findViewById(R.id.countryCodesSpinner)
+        
+
         // Extraction of the validation weather's button and its click listener...
         this.validationWeatherButton = findViewById(R.id.validationWeatherButton)
         validationWeatherButton!!.setOnClickListener {
@@ -54,10 +58,7 @@ class MainActivity : AppCompatActivity() {
             this.openWeatherAPIKeySTextView = findViewById(R.id.openWeatherAPIKey)
             val openWeatherAPIKey: String = openWeatherAPIKeySTextView!!.text.toString()
 
-            // Extraction of country code Spinner...
-            this.countryCodesSpinner = findViewById(R.id.countryCodesSpinner)
-
-
+            //
         }
     }
 }
