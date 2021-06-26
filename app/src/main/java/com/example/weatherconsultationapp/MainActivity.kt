@@ -37,6 +37,11 @@ class MainActivity : AppCompatActivity() {
         this.countryCodeArrayList.add("AD")
 
         this.countryCodeArrayList.add("IO")
+        this.countryCodeArrayList.add("BN")
+        this.countryCodeArrayList.add("BG")
+        this.countryCodeArrayList.add("BF")
+        this.countryCodeArrayList.add("BI")
+        this.countryCodeArrayList.add("CV")
 
         this.countryCodeArrayList.add("TD")
         this.countryCodeArrayList.add("CL")
