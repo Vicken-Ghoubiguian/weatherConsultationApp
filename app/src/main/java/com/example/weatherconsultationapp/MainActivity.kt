@@ -43,7 +43,11 @@ class MainActivity : AppCompatActivity() {
         this.countryCodeArrayList.add("BF")
         this.countryCodeArrayList.add("BI")
         this.countryCodeArrayList.add("CV")
-
+        this.countryCodeArrayList.add("KH")
+        this.countryCodeArrayList.add("CM")
+        this.countryCodeArrayList.add("CA")
+        this.countryCodeArrayList.add("KY")
+        this.countryCodeArrayList.add("CF")
         this.countryCodeArrayList.add("TD")
         this.countryCodeArrayList.add("CL")
         this.countryCodeArrayList.add("CN")
