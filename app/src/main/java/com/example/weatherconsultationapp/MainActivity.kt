@@ -17,7 +17,8 @@ class MainActivity : AppCompatActivity() {
 
     // Declaration of all elements to configure the OpenWeather HTTPS Request URL...
     private var firstPartOfOpenWeatherHTTPSRequest = "https://api.openweathermap.org/data/2.5/weather?q="
-    private var secondPartOfOpenWeatherHTTPSRequest = "&appid="
+    private var secondPartOfOpenWeatherHTTPSRequest = ","
+    private var thirdPartOfOpenWeatherHTTPSRequest = "&appid="
 
     // Declaration of the ArrayList which will contain all countryCodes to use in UI spinner...
     private var countryCodeArrayList = ArrayList<String>()
