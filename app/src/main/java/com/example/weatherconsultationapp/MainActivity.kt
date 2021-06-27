@@ -57,7 +57,13 @@ class MainActivity : AppCompatActivity() {
         this.countryCodeArrayList.add("HR")
         this.countryCodeArrayList.add("CU")
         this.countryCodeArrayList.add("CW")
+        this.countryCodeArrayList.add("CY")
+        this.countryCodeArrayList.add("CZ")
+        this.countryCodeArrayList.add("CI")
 
+        this.countryCodeArrayList.add("FK")
+        this.countryCodeArrayList.add("FO")
+        this.countryCodeArrayList.add("FJ")
         this.countryCodeArrayList.add("FI")
         this.countryCodeArrayList.add("FR")
         this.countryCodeArrayList.add("GF")
