@@ -269,7 +269,7 @@ class MainActivity : AppCompatActivity() {
             val openWeatherAPIKey: String = openWeatherAPIKeySTextView!!.text.toString()
 
             //
-            val openWeatherHTTPSRequest = firstPartOfOpenWeatherHTTPSRequest.plus(localisationName).plus(thirdPartOfOpenWeatherHTTPSRequest).plus(openWeatherAPIKey)
+            val openWeatherHTTPSRequest = firstPartOfOpenWeatherHTTPSRequest.plus(localisationName).plus(secondPartOfOpenWeatherHTTPSRequest).plus(thirdPartOfOpenWeatherHTTPSRequest).plus(openWeatherAPIKey)
         }
     }
 }
