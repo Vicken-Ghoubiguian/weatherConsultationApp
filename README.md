@@ -14,6 +14,8 @@ This project consists of developing a mobile application for Android consisting 
 <a name="introduction"></a>
 ## Introduction
 
+The 'weatherConsultationApp' app is an Android application to get, return and display all weather datas about a place you wish.
+
 <a name="presentation"></a>
 ## Presentation
 
