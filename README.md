@@ -14,7 +14,7 @@ This project consists of developing a mobile application for Android consisting 
 <a name="introduction"></a>
 ## Introduction
 
-The 'weatherConsultationApp' app is an Android application to get, return and display all weather datas about a place you wish.
+The 'weatherConsultationApp' app is an Android application to get, return and display all weather datas about a place you wish. Its development begins when I started to take a keen interest in the Kotlin language and its use in the development of applications on the Android platform. 
 
 <a name="presentation"></a>
 ## Presentation
