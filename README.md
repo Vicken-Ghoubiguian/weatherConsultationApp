@@ -27,6 +27,8 @@ The 'weatherConsultationApp' app is an Android application to get, return and di
 
 ## Approach for development
 
+## Procedure for deployment on Google play
+
 <a name="useful_links"></a>
 ## Useful links
 
