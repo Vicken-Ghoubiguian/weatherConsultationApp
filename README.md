@@ -10,7 +10,6 @@ This project consists of developing a mobile application for Android consisting 
 4. [Example](#example),
 5. d
 6. fff
-7. fff
 8. [Useful links](#useful_links),
 9. [Conclusion](#conclusion),
 
@@ -28,7 +27,7 @@ The 'weatherConsultationApp' app is an Android application to get, return and di
 <a name="example"></a>
 ## Example
 
-## Approach for development
+## Steps for development
 
 ## Procedure for deployment on Google play
 
