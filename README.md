@@ -11,7 +11,7 @@ This project consists of developing a mobile application for Android consisting 
 5. [Procedure for deployment on Google play](#on_google_play),
 6. [Applications components](#applications_components),
 7. [Useful links](#useful_links),
-8. [Conclusion](#conclusion),
+8. [Conclusion](#conclusion)
 
 <a name="introduction"></a>
 ## Introduction
