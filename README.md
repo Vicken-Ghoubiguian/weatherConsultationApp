@@ -7,12 +7,11 @@ This project consists of developing a mobile application for Android consisting 
 1. [Introduction](#introduction),
 2. [Presentation](#presentation),
 3. [Installation](#installation),
-4. [Example](#example),
-5. [Steps for development](#steps_for_dev),
-6. [Procedure for deployment on Google play](#on_google_play),
-7. [Applications components](#applications_components),
-8. [Useful links](#useful_links),
-9. [Conclusion](#conclusion),
+4. [Steps for development](#steps_for_dev),
+5. [Procedure for deployment on Google play](#on_google_play),
+6. [Applications components](#applications_components),
+7. [Useful links](#useful_links),
+8. [Conclusion](#conclusion),
 
 <a name="introduction"></a>
 ## Introduction
@@ -24,9 +23,6 @@ The 'weatherConsultationApp' app is an Android application to get, return and di
 
 <a name="installation"></a>
 ## Installation
-
-<a name="example"></a>
-## Example
 
 <a name="steps_for_dev"></a>
 ## Steps for development
