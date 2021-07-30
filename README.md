@@ -8,7 +8,7 @@ This project consists of developing a mobile application for Android consisting 
 2. [Presentation](#presentation),
 3. [Installation](#installation),
 4. [Development](#development),
-5. [Deployment on Google play](#on_google_play),
+5. [Deployment on Google play](#deployment_on_google_play),
 6. [Applications components](#applications_components),
 7. [Useful links](#useful_links),
 8. [Conclusion](#conclusion)
@@ -27,7 +27,7 @@ The 'weatherConsultationApp' app is an Android application to get, return and di
 <a name="development"></a>
 ## Development
 
-<a name="on_google_play"></a>
+<a name="deployment_on_google_play"></a>
 ## Deployment on Google play
 
 <a name="applications_components"></a>
