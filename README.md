@@ -4,13 +4,13 @@ This project consists of developing a mobile application for Android consisting 
 
 ## Contents
 
-1. [Introduction](#introduction),
-2. [Presentation](#presentation),
-3. [Installation](#installation),
-4. [Development](#development),
-5. [Deployment on Google play](#deployment_on_google_play),
-6. [Applications components](#applications_components),
-7. [Useful links](#useful_links),
+1. [Introduction](#introduction)
+2. [Presentation](#presentation)
+3. [Installation](#installation)
+4. [Development](#development)
+5. [Deployment on Google play](#deployment_on_google_play)
+6. [Applications components](#applications_components)
+7. [Useful links](#useful_links)
 8. [Conclusion](#conclusion)
 
 <a name="introduction"></a>
