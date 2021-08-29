@@ -36,5 +36,8 @@ The 'weatherConsultationApp' app is an Android application to get, return and di
 <a name="useful_links"></a>
 ## Useful links
 
+* [About OpenWeather](https://openweathermap.org);
+* []();
+
 <a name="conclusion"></a>
 ## Conclusion
