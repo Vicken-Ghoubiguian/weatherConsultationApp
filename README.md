@@ -11,7 +11,7 @@ This project consists of developing a mobile application for Android consisting 
 5. [Deployment on Google play](#deployment_on_google_play)
 6. [Applications components](#applications_components)
 7. [Useful links](#useful_links)
-  * [OpenWeather](openweather)
+   * [OpenWeather](#openWeather)
 9. [Conclusion](#conclusion)
 
 <a name="introduction"></a>
@@ -37,6 +37,8 @@ The 'weatherConsultationApp' app is an Android application to get, return and di
 <a name="useful_links"></a>
 ## Useful links
 
+<a name="openWeather"></a>
+### OpenWeather
 * [About OpenWeather](https://openweathermap.org);
 * [About OpenWeather's API](https://openweathermap.org/api);
 
