@@ -12,6 +12,7 @@ This project consists of developing a mobile application for Android consisting 
 6. [Applications components](#applications_components);
 7. [Useful links](#useful_links);
    * [OpenWeather](#openWeather);
+   * [Kotlin](#kotlin);
 9. [Conclusion](#conclusion).
 
 <a name="introduction"></a>
@@ -41,6 +42,9 @@ The 'weatherConsultationApp' app is an Android application to get, return and di
 ### OpenWeather
 * [About OpenWeather](https://openweathermap.org);
 * [About OpenWeather's API](https://openweathermap.org/api);
+
+<a name="kotlin"></a>
+### Kotlin
 
 <a name="conclusion"></a>
 ## Conclusion
