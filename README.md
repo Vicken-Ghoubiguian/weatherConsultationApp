@@ -9,13 +9,18 @@ This project consists of developing a mobile application for Android consisting 
 3. [Installation](#installation);
     * [From Android studio](#from_android_studio);
     * [From Google play](from_google_play);
-5. [Development](#development);
-6. [Deployment on Google play](#deployment_on_google_play);
-7. [Applications components](#applications_components);
-8. [Useful links](#useful_links);
+4. [Development](#development);
+   *
+   *
+   *
+   *
+   *
+5. [Deployment on Google play](#deployment_on_google_play);
+6. [Applications components](#applications_components);
+7. [Useful links](#useful_links);
    * [OpenWeather](#openWeather);
    * [Kotlin](#kotlin);
-9. [Conclusion](#conclusion).
+8. [Conclusion](#conclusion).
 
 <a name="introduction"></a>
 ## Introduction
