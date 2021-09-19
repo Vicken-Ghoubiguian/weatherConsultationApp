@@ -28,8 +28,10 @@ The ```weatherConsultationApp``` app is an Android application to get, return an
 <a name="installation"></a>
 ## Installation
 
+<a name="from_android_studio"></a>
 ### From Android studio
 
+<a name="from_google_play"></a>
 ### From Google play
 
 <a name="development"></a>
