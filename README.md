@@ -12,9 +12,9 @@ This project consists of developing a mobile application for Android consisting 
 4. [Development](#development);
    * [Where does this idea come from ?]();
    * [Conception]();
-   *
-   *
-   *
+   * [Programming]();
+   * [Testing]();
+   * [Improvements]();
 5. [Deployment on Google play](#deployment_on_google_play);
 6. [Applications components](#applications_components);
 7. [Useful links](#useful_links);
