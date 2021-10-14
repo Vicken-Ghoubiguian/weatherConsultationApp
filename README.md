@@ -42,6 +42,21 @@ The ```weatherConsultationApp``` app is an Android application to get, return an
 <a name="development"></a>
 ## Development
 
+<a name="where_does_this_idea_come_from"></a>
+### Where does this idea come from ?
+
+<a name="conception"></a>
+### Conception
+
+<a name="programming"></a>
+### Programming
+
+<a name="testing"></a>
+### Testing
+
+<a name="improvements"></a>
+### Improvements
+
 <a name="deployment_on_google_play"></a>
 ## Deployment on Google play
 
