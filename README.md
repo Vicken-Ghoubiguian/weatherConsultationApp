@@ -4,23 +4,23 @@ This project consists of developing a mobile application for Android consisting 
 
 ## Contents
 
-1. [Introduction](#introduction);
-2. [Presentation](#presentation);
-3. [Installation](#installation);
-    * [From Android studio](#from_android_studio);
-    * [From Google play](from_google_play).
-4. [Development](#development);
-   * [Where does this idea come from ?]();
-   * [Conception]();
-   * [Programming]();
-   * [Testing]();
-   * [Improvements]().
-5. [Deployment on Google play](#deployment_on_google_play);
-6. [Applications components](#applications_components);
-7. [Useful links](#useful_links);
-   * [OpenWeather](#openWeather);
-   * [Kotlin](#kotlin).
-8. [Conclusion](#conclusion).
+1. [Introduction](#introduction)
+2. [Presentation](#presentation)
+3. [Installation](#installation)
+    * [From Android studio](#from_android_studio)
+    * [From Google play](from_google_play)
+4. [Development](#development)
+   * [Where does this idea come from ?]()
+   * [Conception]()
+   * [Programming]()
+   * [Testing]()
+   * [Improvements]()
+5. [Deployment on Google play](#deployment_on_google_play)
+6. [Applications components](#applications_components)
+7. [Useful links](#useful_links)
+   * [OpenWeather](#openWeather)
+   * [Kotlin](#kotlin)
+8. [Conclusion](#conclusion)
 
 <a name="introduction"></a>
 ## Introduction
