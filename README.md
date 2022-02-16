@@ -68,8 +68,10 @@ The ```weatherConsultationApp``` app is an Android application to get, return an
 
 <a name="openWeather"></a>
 ### OpenWeather
-* [About OpenWeather](https://openweathermap.org);
-* [About OpenWeather's API](https://openweathermap.org/api);
+* [About OpenWeather](https://openweathermap.org),
+* [About OpenWeather's API](https://openweathermap.org/api),
+* [Getting started with a Ktor Client](https://ktor.io/docs/getting-started-ktor-client.html),
+* [Server Code With Kotlin - Ktor Example of Simple Request Routing - YouTube](https://www.youtube.com/watch?v=zHQ7oBYSHrY)
 
 <a name="kotlin"></a>
 ### Kotlin
