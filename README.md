@@ -17,10 +17,11 @@ This project consists of developing a mobile application for Android consisting 
    * [Improvements](#improvements)
 5. [Deployment on Google play](#deployment_on_google_play)
 6. [Applications components](#applications_components)
-7. [Useful links](#useful_links)
+7. [Where and how to use this application ?](#where_how_use_app)
+8. [Useful links](#useful_links)
    * [OpenWeather](#openWeather)
    * [Kotlin](#kotlin)
-8. [Conclusion](#conclusion)
+9. [Conclusion](#conclusion)
 
 <a name="introduction"></a>
 ## Introduction
@@ -62,6 +63,9 @@ The ```weatherConsultationApp``` app is an Android application to get, return an
 
 <a name="applications_components"></a>
 ## Applications components
+
+<a name="where_how_use_app"></a>
+## Where and how to use this application ?
 
 <a name="useful_links"></a>
 ## Useful links
