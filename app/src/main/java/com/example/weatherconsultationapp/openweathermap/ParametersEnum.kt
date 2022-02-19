@@ -1,4 +1,7 @@
 package com.example.weatherconsultationapp.openweathermap
 
 enum class ParametersEnum {
+
+    //
+    PARAMETERSWITHLOCALIZATIONCOUNTRYCODEAPIKEY, PARAMETERSWITHLOCALIZATIONAPIKEY, PARAMETERSWITHLATITUDELONGITUDE
 }
