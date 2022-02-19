@@ -1,10 +1,18 @@
 package com.example.weatherconsultationapp
 
+//
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.Spinner
 import android.widget.TextView
+
+//
+import io.ktor.client.*
+import io.ktor.client.engine.cio.*
+import io.ktor.client.request.*
+import io.ktor.client.statement.*
+import kotlinx.coroutines.runBlocking
 
 // Definition of the 'MainActivity' class which define the main activity controller...
 class MainActivity : AppCompatActivity() {
