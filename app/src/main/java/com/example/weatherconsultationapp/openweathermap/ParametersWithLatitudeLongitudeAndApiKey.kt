@@ -1,5 +1,5 @@
 package com.example.weatherconsultationapp.openweathermap
 
 //
-class ParametersWithLatitudeLongitudeAndApiKey {
+class ParametersWithLatitudeLongitudeAndApiKey : Parameters {
 }
