@@ -1,5 +1,5 @@
 package com.example.weatherconsultationapp.openweathermap
 
 //
-enum class ParametersWithLocalizationCountryCodeAndApiKey {
+class ParametersWithLocalizationCountryCodeAndApiKey {
 }
