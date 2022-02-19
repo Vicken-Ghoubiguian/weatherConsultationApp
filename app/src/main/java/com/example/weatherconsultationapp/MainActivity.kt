@@ -14,6 +14,10 @@ import io.ktor.client.request.*
 import io.ktor.client.statement.*
 import kotlinx.coroutines.runBlocking
 
+//
+import com.example.weatherconsultationapp.openweathermap.PresentOpenWeather
+import com.example.weatherconsultationapp.openweathermap.ForecastOpenWeather
+
 // Definition of the 'MainActivity' class which define the main activity controller...
 class MainActivity : AppCompatActivity() {
 
