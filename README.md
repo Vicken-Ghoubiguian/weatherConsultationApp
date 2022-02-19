@@ -78,7 +78,11 @@ The ```weatherConsultationApp``` app is an Android application to get, return an
 <a name="ktor"></a>
 ### Ktor
 * [Getting started with a Ktor Client](https://ktor.io/docs/getting-started-ktor-client.html),
-* [Server Code With Kotlin - Ktor Example of Simple Request Routing - YouTube](https://www.youtube.com/watch?v=zHQ7oBYSHrY)
+* [Adding Ktor to an existing Gradle project](https://ktor.io/docs/gradle.html),
+* [Server Code With Kotlin - Ktor Example of Simple Request Routing - YouTube](https://www.youtube.com/watch?v=zHQ7oBYSHrY),
+* [How to use Ktor client on Android - Medium](https://medium.com/google-developer-experts/how-to-use-ktor-client-on-android-dcdeddc066b9),
+* [Add build dependencies - developer.android.com](https://developer.android.com/studio/build/dependencies),
+* [Gradle - Error Could not find method implementation() for arguments [com.android.support:appcompat-v7:26.0.0] - stack overflow](https://stackoverflow.com/questions/45615474/gradle-error-could-not-find-method-implementation-for-arguments-com-android/50941562)
 
 <a name="kotlin"></a>
 ### Kotlin
