@@ -14,6 +14,9 @@ class PresentOpenWeather {
     private var parameters: Parameters? = null
 
     //
+    private var httpGetResult: String? = null
+
+    //
     constructor(localization: String, countryCode: String, apiKey: String) {
 
         //
@@ -65,6 +68,40 @@ class PresentOpenWeather {
                 "https://api.openweathermap.org/data/2.5/weather?lat=" + this.parameters?.getLatitude()
                     .toString() + "&lon=" + this.parameters?.getLongitude()
                     .toString() + "&appid=" + this.parameters?.getAPIKey()
+        }
+
+        //
+        var getHTTPResultTransitionVar: String = ""
+
+        //
+        try {
+
+            //
+            runBlocking {
+
+                //
+                val openWeatheResponse: HttpResponse = openWeatherClient.get<HttpResponse>(httpOpenWeatherRequest)
+
+                //
+                getHTTPResultTransitionVar = openWeatherClient.get<String>(httpOpenWeatherRequest)
+
+                //
+                println(openWeatheResponse.status)
+            }
+
+            this.httpGetResult = getHTTPResultTransitionVar
+
+            //
+        } catch(exp : Exception) {
+
+            //
+            println(exp.toString())
+
+            //
+        } finally {
+
+            //
+            openWeatherClient.close()
         }
     }
 }
