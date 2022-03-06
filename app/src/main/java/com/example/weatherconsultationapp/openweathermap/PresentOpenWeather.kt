@@ -42,5 +42,29 @@ class PresentOpenWeather {
 
         //
         var httpOpenWeatherRequest = ""
+
+        //
+        if (this.parameters?.parametersType == ParametersEnum.PARAMETERSWITHLOCALIZATIONAPIKEY) {
+
+            //
+            httpOpenWeatherRequest =
+                "https://api.openweathermap.org/data/2.5/weather?q=" + this.parameters?.getLocalization() + "&appid=" + this.parameters?.getAPIKey()
+
+        //
+        } else if (this.parameters?.parametersType == ParametersEnum.PARAMETERSWITHLOCALIZATIONCOUNTRYCODEAPIKEY) {
+
+            //
+            httpOpenWeatherRequest =
+                "https://api.openweathermap.org/data/2.5/weather?q=" + this.parameters?.getLocalization() + "," + this.parameters?.getCountryCode() + "&appid=" + this.parameters?.getAPIKey()
+
+        //
+        } else {
+
+            //
+            httpOpenWeatherRequest =
+                "https://api.openweathermap.org/data/2.5/weather?lat=" + this.parameters?.getLatitude()
+                    .toString() + "&lon=" + this.parameters?.getLongitude()
+                    .toString() + "&appid=" + this.parameters?.getAPIKey()
+        }
     }
 }
