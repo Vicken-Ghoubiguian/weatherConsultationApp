@@ -33,4 +33,14 @@ class PresentOpenWeather {
         //
         this.parameters = ParametersWithLatitudeLongitudeAndApiKey(latitude, longitude, apiKey)
     }
+
+    //
+    public suspend fun openWeatherInitializer() {
+
+        //
+        val openWeatherClient = HttpClient(CIO)
+
+        //
+        var httpOpenWeatherRequest = ""
+    }
 }
