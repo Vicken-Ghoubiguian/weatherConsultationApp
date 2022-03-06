@@ -309,6 +309,9 @@ class MainActivity : AppCompatActivity() {
             this.openWeatherAPIKeySTextView = findViewById(R.id.openWeatherAPIKey)
             val openWeatherAPIKey: String = openWeatherAPIKeySTextView!!.text.toString()
 
+            //
+            var currentPresentOpenWeather = PresentOpenWeather("", "", "")
+
             // Definition and configuration of the OpenWeather HTTPS Request...
             val openWeatherHTTPSRequest = firstPartOfOpenWeatherHTTPSRequest.plus(localisationName).plus(secondPartOfOpenWeatherHTTPSRequest).plus(thirdPartOfOpenWeatherHTTPSRequest).plus(openWeatherAPIKey)
         }
