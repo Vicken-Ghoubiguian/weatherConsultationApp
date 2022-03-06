@@ -17,20 +17,20 @@ class PresentOpenWeather {
     constructor(localization: String, countryCode: String, apiKey: String) {
 
         //
-        //this.parameters = ParametersWithLocalizationCountryCodeAndApiKey(localization, countryCode, apiKey)
+        this.parameters = ParametersWithLocalizationCountryCodeAndApiKey(localization, countryCode, apiKey)
     }
 
     //
     constructor(localization: String, apiKey: String) {
 
         //
-        //this.parameters = ParametersWithLocalizationAndApiKey(localization, apiKey)
+        this.parameters = ParametersWithLocalizationAndApiKey(localization, apiKey)
     }
 
     //
     constructor(latitude: Double, longitude: Double, apiKey: String) {
 
         //
-        //this.parameters = ParametersWithLatitudeLongitudeAndApiKey(latitude, longitude, apiKey)
+        this.parameters = ParametersWithLatitudeLongitudeAndApiKey(latitude, longitude, apiKey)
     }
 }
